@@ -1,0 +1,37 @@
+SOFTWARE LICENSE AGREEMENT
+
+IMPORTANT: READ CAREFULLY BEFORE USING THE SOFTWARE
+
+This software is Copyright of Fortress Power 2023.
+This Software License Agreement ("Agreement") is a legal agreement between you (referred to as "Licensee") and Fortress Power (referred to as "Licensor") for the use of the sandbox environment and associated software ("Software").
+
+1. GRANT OF LICENSE
+
+Licensor hereby grants Licensee a non-exclusive, non-transferable license to use the Software for testing and development purposes only, in accordance with the terms and conditions of this Agreement.
+
+2. RESTRICTIONS
+
+Licensee expressly acknowledges and agrees that they do not have the right to put any portion of the Software or its related codebase into production, commercial, or live environments. All rights and copyrights to the Software and its associated components are reserved by Licensor.
+
+3. INTELLECTUAL PROPERTY
+
+Licensee acknowledges that all intellectual property rights in the Software, including but not limited to copyrights, patents, trademarks, and trade secrets, are the property of Licensor.
+
+4. NO WARRANTY
+
+The Software is provided "as is" without warranty of any kind. Licensor disclaims all warranties, whether express, implied, or statutory, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+
+5. LIMITATION OF LIABILITY
+
+Licensor shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including but not limited to loss of data, loss of profits, or any other loss arising out of or in connection with the use or performance of the Software.
+
+6. TERMINATION
+
+This Agreement is effective until terminated. Licensor reserves the right to terminate this license at any time if Licensee violates any terms or conditions of this Agreement. Upon termination, Licensee must cease all use of the Software and destroy any copies in their possession.
+
+7. GOVERNING LAW
+
+This Agreement shall be governed by and construed in accordance with the laws of Pennsylvania. Any disputes arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the courts of Pennsylvania.
+
+BY USING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
+

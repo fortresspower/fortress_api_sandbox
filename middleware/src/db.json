@@ -1,0 +1,904 @@
+{
+    "eSpire": {
+        "1": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 81.55,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": 0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 0
+        },
+        "2": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 83.21666666666667,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 60
+        },
+        "3": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 84.88333333333334,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 120
+        },
+        "4": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 86.55000000000001,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 180
+        },
+        "5": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 88.21666666666668,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 240
+        },
+        "6": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 89.88333333333335,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 300
+        },
+        "7": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 91.55000000000003,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 360
+        },
+        "8": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 93.2166666666667,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 420
+        },
+        "9": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 94.88333333333337,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 480
+        },
+        "10": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 96.55000000000004,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 540
+        },
+        "11": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 98.21666666666671,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 600
+        },
+        "12": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 99.88333333333338,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 660
+        },
+        "13": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 101.55000000000005,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 720
+        },
+        "14": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 103.21666666666673,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 780
+        },
+        "15": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 104.8833333333334,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 840
+        },
+        "16": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 106.55000000000007,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 900
+        },
+        "17": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 108.21666666666674,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 960
+        },
+        "18": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 109.88333333333341,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1020
+        },
+        "19": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 111.55000000000008,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1080
+        },
+        "20": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 113.21666666666675,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1140
+        },
+        "21": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 114.88333333333343,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1200
+        },
+        "22": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 116.5500000000001,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1260
+        },
+        "23": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 118.21666666666677,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1320
+        },
+        "24": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 119.88333333333344,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1380
+        },
+        "25": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 121.55000000000011,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1440
+        },
+        "26": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 123.21666666666678,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1500
+        },
+        "27": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 124.88333333333345,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1560
+        },
+        "28": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 126.55000000000013,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1620
+        },
+        "29": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 128.21666666666678,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1680
+        },
+        "30": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 129.88333333333344,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1740
+        },
+        "31": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 131.5500000000001,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1800
+        },
+        "32": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 133.21666666666675,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1860
+        },
+        "33": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 134.8833333333334,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1920
+        },
+        "34": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 136.55000000000007,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 1980
+        },
+        "35": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 138.21666666666673,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2040
+        },
+        "36": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 139.88333333333338,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2100
+        },
+        "37": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 141.55000000000004,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2160
+        },
+        "38": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 143.2166666666667,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2220
+        },
+        "39": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 144.88333333333335,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2280
+        },
+        "40": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 146.55,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2340
+        },
+        "41": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 148.21666666666667,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2400
+        },
+        "42": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 149.88333333333333,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2460
+        },
+        "43": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 151.54999999999998,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2520
+        },
+        "44": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 153.21666666666664,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2580
+        },
+        "45": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 154.8833333333333,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2640
+        },
+        "46": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 156.54999999999995,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2700
+        },
+        "47": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 158.2166666666666,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2760
+        },
+        "48": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 159.88333333333327,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2820
+        },
+        "49": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 161.54999999999993,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2880
+        },
+        "50": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 163.21666666666658,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 2940
+        },
+        "51": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 164.88333333333324,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 3000
+        },
+        "52": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 166.5499999999999,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 3060
+        },
+        "53": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 168.21666666666655,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 3120
+        },
+        "54": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 169.8833333333332,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 3180
+        },
+        "55": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 171.54999999999987,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 3240
+        },
+        "56": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 173.21666666666653,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 3300
+        },
+        "57": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 174.88333333333318,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 3360
+        },
+        "58": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 176.54999999999984,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 3420
+        },
+        "59": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 178.2166666666665,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 3480
+        },
+        "60": {
+            "battery": {
+                "capacity": 233,
+                "remaining": 179.88333333333316,
+                "voltage": 832,
+                "max_charge_rate": -150,
+                "max_discharge_rate": 150
+            },
+            "inverter": {
+                "output": -100.0,
+                "setpoint": -100,
+                "vac": 480
+            },
+            "ts": 3540
+        }
+    }
+}

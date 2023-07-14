@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker build -t fortress_ven_middleware:0.0.1 .
