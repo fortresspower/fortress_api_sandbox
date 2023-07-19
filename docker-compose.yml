@@ -19,4 +19,3 @@ services:
 
 networks:
   api-sandbox:
-    external: true
