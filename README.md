@@ -84,7 +84,7 @@ At a minimum, a VTN will implment these steps.
 
 # I'd like more help implementing a VTN
 
-We use a product called Canvas from [GridFabric.io](https://www.gridfabric.io/).  Full disclosure that GridFabric is wholly owned by Fortress Power.  Canvas abstracts away much of the complexity of OpanADR.  You would then implement a Canvas plug-in to your own business logic, rather than a whole OpenADR implementation from scratch.  
+We use a product called Canvas from [GridFabric.io](https://www.gridfabric.io/).  Full disclosure that GridFabric is wholly owned by Fortress Power.  Canvas abstracts away much of the complexity of OpenADR.  You would then implement a Canvas plug-in to your own business logic, rather than a whole OpenADR implementation from scratch.  This sandbox was tested against Canvas.
 
 # Tutorial
 
@@ -99,6 +99,6 @@ Next, `docker-compose up`.  The log messages from the containers will display to
 
 # Version Notes
 
-## V0.0.0 Initial release
+## V0.0.1 Initial release
 
-A very basic VEN is included in the middleware.  It sends a few data points in a report.  It gives a trivial response to events, but does not change its charge or discharge behavior.
+A very basic VEN is included in the middleware.  It sends only a few data points in a report.  It gives a trivial response to events, but does not change its charge or discharge behavior. 
