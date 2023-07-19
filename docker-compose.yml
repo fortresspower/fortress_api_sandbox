@@ -13,7 +13,7 @@ services:
       - middleware
     command: ["--oadr.vtnUrl=${VTN_URL}"]
   middleware:
-    image: fortress_ven_middleware:0.0.1
+    image: fpedgeplatformsflab.azurecr.io/api-sandbox/middleware:0.0.1
     networks:
       - api-sandbox
 
