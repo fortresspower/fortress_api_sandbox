@@ -8,15 +8,15 @@ services:
     volumes:
       - ${LOG_FOLDER}:/plaid/logs
     networks:
-      - gridfabric
+      - api-sandbox
     depends_on:
       - middleware
     command: ["--oadr.vtnUrl=${VTN_URL}"]
   middleware:
     image: fortress_ven_middleware:0.0.1
     networks:
-      - gridfabric
+      - api-sandbox
 
 networks:
-  gridfabric:
+  api-sandbox:
     external: true

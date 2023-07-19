@@ -309,7 +309,6 @@ class Emulator:
 
 
 if __name__ == '__main__':
-    import json
-    from pprint import pprint
+    pass
 
 
