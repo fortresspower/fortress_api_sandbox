@@ -1,13 +1,5 @@
-#!/usr/bin/python
-
-# https://www.acmesystems.it/python_http
 import json
-import random
-
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from os import curdir, sep
-import subprocess
-import logging
 
 from loguru import logger
 
@@ -15,8 +7,7 @@ import qtmessages37 as qt
 from emulators import Emulator
 
 PORT_NUMBER = 8001
-randomize_report_id: bool = False
-resource_id: str = "eSpire1"
+RESOURCE_ID = "eSpire1"
 
 def create_report_from_intervals(usage_intervals, usage_report_id='Fortress_telemetry_usage_v0.0.1'):
     return qt.TelemetryReport(duration=qt.DurationDescription(60, qt.Modifier.M), 
@@ -30,7 +21,7 @@ def create_response_from_reports(reports, usage_report_id='FORTRESS_TELEMETRY_US
     return response
 
 
-def register_report_response_pipeline(emulator:Emulator, sampling_period, resource_id, now=True, ts=None):
+def register_report_response_pipeline(emulator:Emulator, sampling_period, resource_id=RESOURCE_ID, now=True, ts=None):
     battery_storage_system = emulator.system_at(now=now, ts=ts)
 
     usage_intervals = battery_storage_system.intervals(resource_id=resource_id, 
@@ -79,14 +70,13 @@ def query_intervals(emulator:Emulator, r_ids:list, start:int, end:int, step:int=
 
 
 class MyHandler(BaseHTTPRequestHandler):
-    def set_emulator(self, emulator:Emulator):
-        self.emulator = emulator
+    emulator = Emulator(system_type='eSpire')
 
     def register_reports(self, post_data):
         sampling_period = qt.SamplingPeriod(1, 1, False, qt.Modifier.M)
         response = register_report_response_pipeline(emulator=self.emulator, 
                                                      sampling_period=sampling_period,
-                                                     resource_id=resource_id,
+                                                     resource_id=RESOURCE_ID,
                                                      now=True)
 
         return json.dumps(response.to_dict())
@@ -185,15 +175,16 @@ class MyHandler(BaseHTTPRequestHandler):
 
 
 if __name__ == '__main__':
+    logger.level("DEBUG")
     try:
         #Create a web server and define the handler to manage the
         #incoming request
         server = HTTPServer(('', PORT_NUMBER), MyHandler)
-        print(f'Started httpserver on port {PORT_NUMBER}')
+        logger.info(f'Started httpserver on port {PORT_NUMBER}')
 
         #Wait forever for incoming http requests
         server.serve_forever()
 
     except KeyboardInterrupt:
-        print('^C received, shutting down the web server')
+        logger.warning('^C received, shutting down the web server')
         server.socket.close()

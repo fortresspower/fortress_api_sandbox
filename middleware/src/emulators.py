@@ -6,6 +6,7 @@ from dataclasses import dataclass
 
 from pint import UnitRegistry
 from tinydb import TinyDB, Query
+from loguru import logger
 
 import qtmessages37 as qt
 
@@ -22,11 +23,9 @@ kWh = unit.kilowatthour
 kW = unit.kilowatt
 watts = unit.watts
 
-ABBREVIATIONS = {watts: "W"}
-
-SCALE_FACTORS = {-1: 'd',
-                 0: 'none',
-                 3: 'k'}
+SCALE_FACTORS = {-1: qt.SiScaleCode.D,
+                 0: qt.SiScaleCode.NONE,
+                 3: qt.SiScaleCode.K}
 
 def ensure_unit(value, units):
     try:
@@ -172,7 +171,6 @@ class Tag:
         power_properties = self.power_properties()
 
         si_scale_code = SCALE_FACTORS[self.scale_factor]
-
         qtunit = qt.Units(description='', 
                                si_scale_code=si_scale_code, 
                                units=self.si_units, 
@@ -182,16 +180,18 @@ class Tag:
         interval_props = qt.UsageIntervalProperties(qt.ReadingType.DIRECT_READ, report_type, qtunit)
 
         market_context=market_context or ""
-        return qt.IntervalDescription(market_context=market_context, resource_id=resource_id,
+        interval = qt.IntervalDescription(market_context=market_context, resource_id=resource_id,
                                                 rid=self.name, sampling_period=sampling_period, 
                                                 usage_interval_properties=interval_props)
+        logger.debug(f'Interval made: {interval}')
+        return interval
 
 class BatteryCharging(Tag):
     name: str='BatteryCharging'
     help: str='Power sent to energy storage'
     unit: str=kW
 
-    si_units: str=str(watts)
+    si_units: str="W"
     scale_factor: int=3 
     unit_type: str=qt.UnitType.POWER_REAL
     ac: bool=False
@@ -208,7 +208,7 @@ class BatteryDischarging(Tag):
     name: str='BatteryDisharging'
     help: str='Power sent from energy storage'
     unit: str=kW
-    si_units: str=str(watts)
+    si_units: str="W"
     scale_factor: int=3
     unit_type: str=qt.UnitType.POWER_REAL
     ac: bool=False
@@ -298,6 +298,7 @@ class Emulator:
         if now:
             ts = self.ts_since_start()
         record = self.as_of(ts)
+        logger.debug(f'System at {ts} is {record}')
         return self.system_class.load(record)
 
     def telemetry_at(self, ts=None, now=False):
@@ -308,8 +309,6 @@ class Emulator:
 
 
 if __name__ == '__main__':
-    import json
-    from pprint import pprint
-    emu = Emulator(system_type='eSpire')
-    print(emu.telemetry_at(ts=100))
+    pass
+
 

@@ -84,7 +84,7 @@ At a minimum, a VTN will implment these steps.
 
 # I'd like more help implementing a VTN
 
-We use a product called Canvas from [GridFabric.io](https://www.gridfabric.io/).  Full disclosure that GridFabric is wholly owned by Fortress Power.  Canvas abstracts away much of the complexity of OpanADR.  You would then implement a Canvas plug-in to your own business logic, rather than a whole OpenADR implementation from scratch.  
+We use a product called Canvas from [GridFabric.io](https://www.gridfabric.io/).  Full disclosure that GridFabric is wholly owned by Fortress Power.  Canvas abstracts away much of the complexity of OpenADR.  You would then implement a Canvas plug-in to your own business logic, rather than a whole OpenADR implementation from scratch.  This sandbox was tested against Canvas.
 
 # Tutorial
 
@@ -95,10 +95,18 @@ cp example_environment_file.env .env
 
 Then edit it to change the `VTN_URL` to the actual URL that you are hosting your VTN at.
 
-Next, `docker-compose up`.  The log messages from the containers will display to your screen.
+Next, `docker-compose up`.  The log messages from the containers will display to your screen.  Two docker containers will be created
+```bash
+$ docker ps
+CONTAINER ID   IMAGE                                                   COMMAND                  CREATED          STATUS         PORTS                                      NAMES
+d1f6ca72e595   fpedgeplatformsflab.azurecr.io/api-sandbox/ven:latest   "./plaidven schema.j…"   14 minutes ago   Up 1 second    0.0.0.0:8000->8000/tcp                     api-sandbox-ven-1
+1c07f3c1e3f2   fortress_ven_middleware:0.0.1                           "python middleware.py"   14 minutes ago   Up 2 seconds   8081/tcp                                   api-sandbox-middleware-1
+```
+
+The VEN is running in the container `api-sandbox-ven-1`.  It will attempt to connect to the VTN at the URL you gave in the `.env` file.  The VEN will follow the logic from the diagram above.  You can use this to test your VTN implementation.  
 
 # Version Notes
 
-## V0.0.0 Initial release
+## V0.0.1 Initial release
 
-A very basic VEN is included in the middleware.  It sends a few data points in a report.  It gives a trivial response to events, but does not change its charge or discharge behavior.
+A very basic VEN is included in the middleware.  It sends only a few data points in a report.  It gives a trivial response to events, but does not change its charge or discharge behavior. 
