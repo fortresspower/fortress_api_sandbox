@@ -1,0 +1,8 @@
+# Exclude .git directory and its contents
+.git/
+
+# Exclude files with .pyc and .pyo extensions
+*.pyc
+*.pyo
+
+src/.venv/
