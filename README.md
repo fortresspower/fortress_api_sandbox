@@ -88,19 +88,26 @@ We use a product called Canvas from [GridFabric.io](https://www.gridfabric.io/).
 
 # Tutorial
 
-First, copy the environment file and rename it.
+To run this demo sandbox you will need docker and docker-compose.  First, copy the environment file and rename it.
 ```bash
 cp example_environment_file.env .env
 ```
 
 Then edit it to change the `VTN_URL` to the actual URL that you are hosting your VTN at.
 
+Next docker login to the container repository.
+```bash
+docker login -u $FORTRESS_API_USERNAME -p $FORTRESS_API_PASSWORD fpedgeplatformsflab.azurecr.io
+```
+You will need to get your `$FORTRESS_API_USERNAME` and `$FORTRESS_API_PASSWORD` from your sales representative. 
+
+
 Next, `docker-compose up`.  The log messages from the containers will display to your screen.  Two docker containers will be created
 ```bash
 $ docker ps
 CONTAINER ID   IMAGE                                                   COMMAND                  CREATED          STATUS         PORTS                                      NAMES
 d1f6ca72e595   fpedgeplatformsflab.azurecr.io/api-sandbox/ven:latest   "./plaidven schema.j…"   14 minutes ago   Up 1 second    0.0.0.0:8000->8000/tcp                     api-sandbox-ven-1
-1c07f3c1e3f2   fortress_ven_middleware:0.0.1                           "python middleware.py"   14 minutes ago   Up 2 seconds   8081/tcp                                   api-sandbox-middleware-1
+1c07f3c1e3f2   fpedgeplatformsflab.azurecr.io/api-sandbox/fortress_ven_middleware:0.0.1                           "python middleware.py"   14 minutes ago   Up 2 seconds   8081/tcp                                   api-sandbox-middleware-1
 ```
 
 The VEN is running in the container `api-sandbox-ven-1`.  It will attempt to connect to the VTN at the URL you gave in the `.env` file.  The VEN will follow the logic from the diagram above.  You can use this to test your VTN implementation.  
