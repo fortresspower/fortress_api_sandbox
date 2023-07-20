@@ -86,12 +86,12 @@ class MyHandler(BaseHTTPRequestHandler):
         start = request.on_query_intervals_message.start_timet
         end = request.on_query_intervals_message.end_timet
         step = request.on_query_intervals_message.granularity_in_seconds if request.on_query_intervals_message.granularity_in_seconds != 0 else 60
-        #granularity = request.on_query_intervals_message.granularity_in_seconds if request.on_query_intervals_message.granularity_in_seconds != 0 else 60
+        granularity = request.on_query_intervals_message.granularity_in_seconds if request.on_query_intervals_message.granularity_in_seconds != 0 else 60
         r_ids = request.on_query_intervals_message.r_ids
         response = query_intervals(emulator=self.emulator, 
                                    r_ids=r_ids,
                                    start=start,
-                                   end=end,
+                                   end=end + granularity,
                                    step=step)
         return json.dumps(response.to_dict())
 
