@@ -20,7 +20,7 @@ The API will work cloud-to-cloud.  Fortress will make your devices available as 
 If you'd like to consume our API, you can create an OpenADR2.0b compliant VTN.  
 
 # Why did you create this sandbox?
-It's often helpful to have a piece of working code to develop against.  Please note that everything in this sandbox that isn't specified in the OpenADR spec is subject to change.  This can include the names of the data points.  The best use of this sandbox is as a way to make sure that your VTN is to test that you can connect and receive data, and not to depend on the specifities of that data.
+It's often helpful to have a piece of working code to develop against.  Please note that everything in this sandbox that isn't specified in the OpenADR spec is subject to change.  This can include the names of the data points.  The best use of this sandbox is as a way to make sure that your VTN can connect and receive data, and not to depend on the specifities of that data.
 
 This sandbox is meant as a tool for software developers.  The real API will not be distributed as a set of docker containers.  It will be hosted online.  
 
@@ -70,7 +70,7 @@ sequenceDiagram
 
 ```
 
-> In the examples that follow, anywhere you see a reference to a requestID such as `                <ns3:requestID>1890A6BF01</ns3:requestID>` you will need to read the requestID sent by the VEN and return the same string in the response.
+> In the examples that follow, anywhere you see a reference to a requestID such as `<ns3:requestID>1890A6BF01</ns3:requestID>` you will need to read the requestID sent by the VEN and return the same string in the response.
 
 At a minimum, a VTN will implment these steps. 
 
