@@ -112,7 +112,17 @@ d1f6ca72e595   fpedgeplatformsflab.azurecr.io/api-sandbox/ven:latest   "./plaidv
 
 The VEN is running in the container `api-sandbox-ven-1`.  It will attempt to connect to the VTN at the URL you gave in the `.env` file.  The VEN will follow the logic from the diagram above.  You can use this to test your VTN implementation.  
 
+# Examples of data points
+
+An example of the kind of data points or "tags" that will be available is given in `example_payloads/example_tags.csv`.  "MBMU" refers to the master battery management unit, which has a similar function to a more traditional "BMS".  The "PCS" is the "power conditioning system".  Please take note that this list of tags is given as an example only.  The naming convention is still being developed.  In addition, the exact tag list will vary because the exact set of equipment at any given installation will also vary.  
+
+
 # Version Notes
+
+## V0.0.2
+
+- Documentation improvements. 
+- Examples of data points added.
 
 ## V0.0.1 Initial release
 

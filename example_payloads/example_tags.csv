@@ -1,0 +1,289 @@
+﻿Equipment,Point name,Label,FullName,Unit,DataType
+MBMU,system_warning_w_deg,MBMU System Warning With Degrees,System Warning With Degrees,State,Integer
+MBMU,system_warning_no_deg_1,MBMU System Warning Without Degrees 1,System Warning Without Degrees 1,State,Integer
+MBMU,system_warning_no_deg_1_Current_over_limit_warning,MBMU Current over limit warning,Current over limit warning,None,String
+MBMU,system_warning_no_deg_1_High_Single_Cell_Voltage_Difference,MBMU High Single Cell Voltage Difference,High Single Cell Voltage Difference,None,String
+MBMU,system_warning_no_deg_1_High_Temperature_Difference_In_Bank,MBMU High Temperature Difference In Bank,High Temperature Difference In Bank,None,String
+MBMU,system_warning_no_deg_1_System_Overvoltage_Warning,MBMU System Overvoltage Warning,System Overvoltage Warning,None,String
+MBMU,system_warning_no_deg_1_System_Undervoltage_Warning,MBMU System Undervoltage Warning,System Undervoltage Warning,None,String
+MBMU,system_warning_no_deg_1_Device_Communication_Fault,MBMU Device Communication Fault,Device Communication Fault,None,String
+MBMU,system_warning_no_deg_1_Cell_Extreme_Temperature_Warning,MBMU Cell Extreme Temperature Warning,Cell Extreme Temperature Warning,None,String
+MBMU,system_warning_no_deg_1_Cell_Extreme_Voltage_Warning,MBMU Cell Extreme Voltage Warning,Cell Extreme Voltage Warning,None,String
+MBMU,system_warning_no_deg_1_EMS_Heartbeat_Fault,MBMU EMS Heartbeat Fault,EMS Heartbeat Fault,None,String
+MBMU,system_warning_no_deg_1_Main_Power_Supply_Lost_Warning,MBMU Main Power Supply Lost Warning,Main Power Supply Lost Warning,None,String
+MBMU,system_warning_no_deg_1_Main_Power_Supply_Lose_Fault,MBMU Main Power Supply Lose Fault,Main Power Supply Lose Fault,None,String
+MBMU,system_warning_no_deg_1_UPS_Fault,MBMU UPS Fault,UPS Fault,None,String
+MBMU,system_warning_no_deg_1_Fire_Supression_Fault,MBMU Fire Supression Fault,Fire Supression Fault,None,String
+MBMU,system_warning_no_deg_2,MBMU System Warning Without Degrees 2,System Warning Without Degrees 2,State,Integer
+MBMU,system_warning_no_deg_2_Fire_Supression_Warning,MBMU Fire Supression Warning,Fire Supression Warning,None,String
+MBMU,system_warning_no_deg_2_E_Stop_Pressed_Fault,MBMU E Stop Pressed Fault,E Stop Pressed Fault,None,String
+MBMU,system_warning_no_deg_2_E_Stop_Fault,MBMU E Stop Fault,E Stop Fault,None,String
+MBMU,system_warning_no_deg_2_Entrance_Door_Fault,MBMU Entrance Door Fault,Entrance Door Fault,None,String
+MBMU,system_warning_no_deg_2_Escape_Door_Fault,MBMU Escape Door Fault,Escape Door Fault,None,String
+MBMU,system_warning_no_deg_2_Main_Load_Switch_Fault,MBMU Main Load Switch Fault,Main Load Switch Fault,None,String
+MBMU,system_warning_no_deg_2_Lightning_Protector_Fault,MBMU Lightning Protector Fault,Lightning Protector Fault,None,String
+MBMU,system_warning_no_deg_2_Exhaust_Fan_Fault,MBMU Exhaust Fan Fault,Exhaust Fan Fault,None,String
+MBMU,system_warning_no_deg_2_Racks_Numbers_Of_High_Voltage_Power_On_Fault,MBMU Racks Numbers Of High Voltage Power On Fault,Racks Numbers Of High Voltage Power On Fault,None,String
+MBMU,system_warning_no_deg_3,MBMU System Warning Without Degrees 3,System Warning Without Degrees 3,State,Integer
+MBMU,system_status,MBMU System Status,System Status,State,Integer
+MBMU,system_status_warning,MBMU System Warning Status,MBMU System Warning Status,None,String
+MBMU,system_status_fault,MBMU System Fault Status,MBMU System Fault Status,None,String
+MBMU,system_voltage,MBMU System Voltage,System Voltage,V,Double
+MBMU,system_current,MBMU System Current,System Current,A,Double
+MBMU,system_SOC,MBMU System SOC,System SOC,%,Double
+MBMU,system_SOH,MBMU System SOH,System SOH,%,Double
+MBMU,max_cell_voltage,MBMU Maximum Cell Voltage,MBMU Maximum Cell Voltage,V,Double
+MBMU,min_cell_voltage,MBMU Minimum Cell Voltage,MBMU Minimum Cell Voltage,V,Double
+MBMU,avg_cell_voltage,MBMU Average Cell Voltage,MBMU Average Cell Voltage,V,Double
+MBMU,max_cell_temperature,MBMU Maximum Cell Temperature,MBMU Maximum Cell Temperature,C,Double
+MBMU,min_cell_temperature,MBMU Minimum Cell Temperature,MBMU Minimum Cell Temperature,C,Double
+MBMU,avg_cell_temperature,MBMU Average Cell Temperature,MBMU Average Cell Temperature,C,Double
+MBMU,max_charge_current_allowed,MBMU Maximum Allowed Charge Current,MBMU Maximum Allowed Charge Current,A,Double
+MBMU,max_discharge_current_allowed,MBMU Maximum Allowed Discharge Current,MBMU Maximum Allowed Discharge Current,A,Double
+MBMU,SFVER,MBMU Software Version,MBMU Software Version,None,String
+MBMU,BMS_heartbeat,MBMU BMS Heartbeat,MBMU BMS Heartbeat,None,Integer
+MBMU,BMS_poweron,MBMU BMS Power On,MBMU BMS Power On,State,Integer
+MBMU,BMS_status,MBMU BMS Status,MBMU BMS Status,State,Integer
+MBMU,E_Stop_Status,MBMU E_Stop Status,MBMU E_Stop Status,State,Integer
+MBMU,EMS_heartbeat,MBMU EMS Heartbeat,MBMU EMS Heartbeat,None,Integer
+MBMU,EMS_cmd,MBMU BMS EMS Command,MBMU BMS EMS Command,None,Integer
+MBMU,EMS_Fault_Clear_cmd,MBMU Fault Clear Command,MBMU Fault Clear Command,None,Integer
+MBMU,Single_Cell_Overvoltage,MBMU Single Cell Overvoltage,MBMU Single Cell Overvoltage,State,Integer
+MBMU,Single_Cell_Overvoltage_Str,MBMU Single Cell Overvoltage Str,MBMU Single Cell Overvoltage Str,None,String
+MBMU,Single_Cell_Overvoltage_Level_1,MBMU Single Cell Overvoltage Level 1 Alarm,MBMU Single Cell Overvoltage Level 1 Alarm,None,String
+MBMU,Single_Cell_Overvoltage_Level_2,MBMU Single Cell Overvoltage Level 2 Alarm,MBMU Single Cell Overvoltage Level 2 Alarm,None,String
+MBMU,Single_Cell_Overvoltage_Level_3,MBMU Single Cell Overvoltage Level 3 Alarm,MBMU Single Cell Overvoltage Level 3 Alarm,None,String
+MBMU,Single_Cell_Undervoltage,MBMU Single Cell Undervoltage,MBMU Single Cell Undervoltage,State,Integer
+MBMU,Single_Cell_Undervoltage_Str,MBMU Single Cell Undervoltage Str,MBMU Single Cell Undervoltage Str,None,String
+MBMU,Single_Cell_Undervoltage_Level_1,MBMU Single Cell Undervoltage Level 1 Alarm,MBMU Single Cell Undervoltage Level 1 Alarm,None,String
+MBMU,Single_Cell_Undervoltage_Level_2,MBMU Single Cell Undervoltage Level 2 Alarm,MBMU Single Cell Undervoltage Level 2 Alarm,None,String
+MBMU,Single_Cell_Undervoltage_Level_3,MBMU Single Cell Undervoltage Level 3 Alarm,MBMU Single Cell Undervoltage Level 3 Alarm,None,String
+MBMU,Single_Cell_Over_Temp,MBMU Single Cell Over Temperature,MBMU Single Cell Over Temperature,State,Integer
+MBMU,Single_Cell_Over_Temp_Str,MBMU Single Cell Over Temp Str,MBMU Single Cell Over Temp Str,None,String
+MBMU,Single_Cell_Over_Temp_Level_1,MBMU Single Cell Over Temp Level 1 Alarm,MBMU Single Cell Over Temp Level 1 Alarm,None,String
+MBMU,Single_Cell_Over_Temp_Level_2,MBMU Single Cell Over Temp Level 2 Alarm,MBMU Single Cell Over Temp Level 2 Alarm,None,String
+MBMU,Single_Cell_Over_Temp_Level_3,MBMU Single Cell Over Temp Level 3 Alarm,MBMU Single Cell Over Temp Level 3 Alarm,None,String
+MBMU,Single_Cell_Under_Temp,MBMU Single Cell Under Temperature,MBMU Single Cell Under Temperature,State,Integer
+MBMU,Single_Cell_Under_Temp_Str,MBMU Single Cell Under Temp Str,MBMU Single Cell Under Temp Str,None,String
+MBMU,Single_Cell_Under_Temp_Level_1,MBMU Single Cell Under Temp Level 1 Alarm,MBMU Single Cell Under Temp Level 1 Alarm,None,String
+MBMU,Single_Cell_Under_Temp_Level_2,MBMU Single Cell Under Temp Level 2 Alarm,MBMU Single Cell Under Temp Level 2 Alarm,None,String
+MBMU,Single_Cell_Under_Temp_Level_3,MBMU Single Cell Under Temp Level 3 Alarm,MBMU Single Cell Under Temp Level 3 Alarm,None,String
+MBMU,SOC_Low,MBMU SoC Low,MBMU SoC Low,State,Integer
+MBMU,SOC_Low_Str,MBMU SOC Low Str,MBMU SOC Low Str,State,Integer
+MBMU,SOC_Low_Level_1,MBMU SOC Low Level 1 Alarm,MBMU SOC Low Level 1 Alarm,None,String
+MBMU,SOC_Low_Level_2,MBMU SOC Low Level 2 Alarm,MBMU SOC Low Level 2 Alarm,None,String
+MBMU,SOC_Low_Level_3,MBMU SOC Low Level 3 Alarm,MBMU SOC Low Level 3 Alarm,None,String
+MBMU,Isolation_Ground_Warning,MBMU Isolation Ground Warning,MBMU Isolation Ground Warning,State,Integer
+MBMU,Isolation_Ground_Warning_Str,MBMU Isolation Ground Warning Str,MBMU Isolation Ground Warning Str,None,String
+MBMU,Isolation_Ground_Warning_Level_1,MBMU Isolation Ground Warning Level 1 Alarm,MBMU Isolation Ground Warning Level 1 Alarm,None,String
+MBMU,Isolation_Ground_Warning_Level_2,MBMU Isolation Ground Warning Level 2 Alarm,MBMU Isolation Ground Warning Level 2 Alarm,None,String
+MBMU,Isolation_Ground_Warning_Level_3,MBMU Isolation Ground Warning Level 3 Alarm,MBMU Isolation Ground Warning Level 3 Alarm,None,String
+PCS,CMD_PCS_ON_OFF,PCS PCS On Off Command,PCS On Off Command,None,Integer
+PCS,CMD_CLEAR_ALL_FAULT,PCS PCS Clear Fault Command,PCS Clear Fault Command,None,Integer
+PCS,CMD_RUNNING_ACTIVE_POWER_DEMAND,PCS PCS Running Active Power Demand,PCS Running Active Power Demand,KW,Integer
+PCS,FAULT_SYS_GRID_AC,PCS PCS AC System Grid Fault,PCS AC System Grid Fault,State,Integer
+PCS,FAULT_SYS_GRID_AC_Phase_R_Over_Voltage,PCS Sys Grid AC Phase R Over Voltage Alarm,Sys Grid AC Phase R Over Voltage Alarm,None,String
+PCS,FAULT_SYS_GRID_AC_Phase_S_Over_Voltage,PCS Sys Grid AC Phase S Over Voltage Alarm,Sys Grid AC Phase S Over Voltage Alarm,None,String
+PCS,FAULT_SYS_GRID_AC_Phase_T_Over_Voltage,PCS Sys Grid AC Phase T Over Voltage Alarm,Sys Grid AC Phase T Over Voltage Alarm,None,String
+PCS,FAULT_SYS_GRID_AC_Phase_R_Under_Voltage,PCS Sys Grid AC Phase R Under Voltage Alarm,Sys Grid AC Phase R Under Voltage Alarm,None,String
+PCS,FAULT_SYS_GRID_AC_Phase_S_Under_Voltage,PCS Sys Grid AC Phase S Under Voltage Alarm,Sys Grid AC Phase S Under Voltage Alarm,None,String
+PCS,FAULT_SYS_GRID_AC_Phase_T_Under_Voltage,PCS Sys Grid AC Phase T Under Voltage Alarm,Sys Grid AC Phase T Under Voltage Alarm,None,String
+PCS,FAULT_SYS_GRID_AC_Over_Frequency,PCS Sys Grid AC Over Frequency Alarm,Sys Grid AC Over Frequency Alarm,None,String
+PCS,FAULT_SYS_GRID_AC_Under_Frequency,PCS Sys Grid AC Under Frequency Alarm,Sys Grid AC Under Frequency Alarm,None,String
+PCS,FAULT_SYS_GRID_AC_Phase_Sequence_Error,PCS Sys Grid AC Phase Sequence Error. Alarm,Sys Grid AC Phase Sequence Error. Alarm,None,String
+PCS,FAULT_SYS_GRID_AC_Synchronize_Fault,PCS Sys Grid Synchronize Alarm,Sys Grid Synchronize Alarm,None,String
+PCS,FAULT_SYS_GRID_AC_Start_Up_Voltage_Over_Limit,PCS Sys Grid Start Up Voltage Over Limit. Alarm,Sys Grid Start Up Voltage Over Limit. Alarm,None,String
+PCS,FAULT_SYS_HARDWARE,PCS PCS System Hardware Fault,PCS System Hardware Fault,State,Integer
+PCS,FAULT_SYS_HARDWARE_EPO_Fault,PCS Sys Hardware EPO Fault,Sys Hardware EPO Fault,None,String
+PCS,FAULT_SYS_HARDWARE_Remote_EPO_Fault,PCS Sys Hardware Remote EPO Fault,Sys Hardware Remote EPO Fault,None,String
+PCS,FAULT_SYS_HARDWARE_AC_Disconnector_Fault,PCS Sys Hardware AC Disconnector Fault,Sys Hardware AC Disconnector Fault,None,String
+PCS,FAULT_SYS_HARDWARE_DC_Disconnector_Fault,PCS Sys Hardware DC Disconnector Fault,Sys Hardware DC Disconnector Fault,None,String
+PCS,FAULT_SYS_HARDWARE_SPD1_Fault,PCS Sys Hardware SPD1 Fault,Sys Hardware SPD1 Fault,None,String
+PCS,FAULT_SYS_HARDWARE_Heat_Fault,PCS Sys Hardware Heat Fault,Sys Hardware Heat Fault,None,String
+PCS,FAULT_SYS_HARDWARE_Fan_Lock_Fault,PCS Sys Hardware Fan Lock Fault,Sys Hardware Fan Lock Fault,None,String
+PCS,FAULT_SYS_HARDWARE_Aux_Power_Fault,PCS Sys Hardware Aux Power Fault,Sys Hardware Aux Power Fault,None,String
+PCS,FAULT_SYS_HARDWARE_Door_Open_Fault,PCS Sys Hardware Door Open Fault,Sys Hardware Door Open Fault,None,String
+PCS,FAULT_SYS_OTHER,PCS PCS System Other Fault,PCS System Other Fault,State,Integer
+PCS,FAULT_SYS_OTHER_Ambient_OTP,PCS Sys Other Ambient OTP,Sys Other Ambient OTP,None,String
+PCS,FAULT_SYS_OTHER_Ambient_UTP,PCS Sys Other Ambient UTP,Sys Other Ambient UTP,None,String
+PCS,FAULT_SYS_OTHER_BMS_Check_Disabled_Warning,PCS Sys Other BMS Check Disabled Warning,Sys Other BMS Check Disabled Warning,None,String
+PCS,FAULT_SYS_OTHER_DSP_RS485_Loss,PCS Sys Other DSP RS485 Loss,Sys Other DSP RS485 Loss,None,String
+PCS,FAULT_SYS_OTHER_RCM_Leakage_Warning,PCS Sys Other RCM Leakage Warning,Sys Other RCM Leakage Warning,None,String
+PCS,FAULT_SYS_OTHER_EEPROM_Fault,PCS Sys Other EEPROM Fault,Sys Other EEPROM Fault,None,String
+PCS,FAULT_SYS_OTHER_HMI_RS485_Loss,PCS Sys Other HMI RS485 Loss,Sys Other HMI RS485 Loss,None,String
+PCS,FAULT_SYS_OTHER_BMS_CAN_RS485_Loss_fault,PCS Sys Other BMS CAN/RS485 Loss fault,Sys Other BMS CAN/RS485 Loss fault,None,String
+PCS,FAULT_SYS_OTHER_PCS_CAN_Loss,PCS Sys Other PCS CAN Loss,Sys Other PCS CAN Loss,None,String
+PCS,FAULT_SYS_OTHER_PCS_System_Soft_Start_Fault,PCS Sys Other PCS System Soft Start Fault,Sys Other PCS System Soft Start Fault,None,String
+PCS,FAULT_SYS_OTHER_System_Restart_Fault,PCS Sys Other System Restart Fault,Sys Other System Restart Fault,None,String
+PCS,FAULT_SYS_OTHER_EMS_RS485_Loss,PCS Sys Other EMS RS485 Loss,Sys Other EMS RS485 Loss,None,String
+PCS,FAULT_SYS_OTHER_GFD_Fault,PCS Sys Other GFD Fault,Sys Other GFD Fault,Hz,Integer
+PCS,MEAS_SYS_VOLT_GRID_RS,PCS PCS System RS Grid Voltage,PCS System RS Grid Voltage,V,Integer
+PCS,MEAS_SYS_VOLT_GRID_ST,PCS PCS System ST Grid Voltage,PCS System ST Grid Voltage,V,Integer
+PCS,MEAS_SYS_VOLT_GRID_TR,PCS PCS System TR Grid Voltage,PCS System TR Grid Voltage,V,Integer
+PCS,MEAS_SYS_VOLT_GRID_R,PCS PCS System R Grid Voltage,PCS System R Grid Voltage,V,Integer
+PCS,MEAS_SYS_VOLT_GRID_S,PCS PCS System S Grid Voltage,PCS System S Grid Voltage,V,Integer
+PCS,MEAS_SYS_VOLT_GRID_T,PCS PCS System T Grid Voltage,PCS System T Grid Voltage,V,Integer
+PCS,EN_MEAS_SYS_POWER_ACTIVE_ALL,PCS PCS  Sytem Enable All Active Power Measure,PCS  Sytem Enable All Active Power Measure,KW,Integer
+PCS,EN_MEAS_SYS_POWER_REACTIVE_ALL,PCS PCS  Sytem Enable All Reactive Power Measure,PCS  Sytem Enable All Reactive Power Measure,KVAR,Integer
+PCS,STATE_PCS_SYSTEM,PCS PCS System State,PCS System State,State,Integer
+PCS,STATE_QS,PCS PCS System QS,PCS System QS,State,Integer
+PCS,STATE_PCS_GLOBAL,PCS PCS System Global State,PCS System Global State,State,Integer
+PCS,STATE_MASTER,PCS PCS System Master State,PCS System Master State,State,Integer
+PCS,CMD_PCS_GT_OR_SA,PCS PCS Grid Tied or Stand Alone Command,PCS Grid Tied or Stand Alone Command,None,Integer
+PCS,MEAS_SYS_FREQ_GRID,PCS PCS System Frequency,PCS System Frequency,Hz,Integer
+PCS,MEAS_DAM01_V_NPCC_RS,PCS PCS DAM01 NPCC RS Voltage,PCS RS Voltage Near PCC,V,Integer
+PCS,MEAS_DAM01_V_NPCC_ST,PCS PCS DAM01 NPCC ST Voltage,PCS ST Voltage Near PCC,V,Integer
+PCS,MEAS_DAM01_V_NPCC_TR,PCS PCS DAM01 NPCC TR Voltage,PCS TR Voltage Near PCC,V,Integer
+PCS,MEAS_DAM01_IO_R,PCS PCS DAM01 R IO,Phase R Load Current RMS,A,Integer
+PCS,MEAS_DAM01_IO_S,PCS PCS DAM01 S IO,Phase S Load Current RMS,A,Integer
+PCS,MEAS_DAM01_IO_T,PCS PCS DAM01 T IO,Phase RTLoad Current RMS,A,Integer
+PCS,MEAS_DAM01_P,PCS PCS DAM01 P,PCS DAM01 Active Power,KW,Integer
+PCS,MEAS_DAM01_Q,PCS PCS DAM01 Q,PCS DAM01 Reactive Power,KVAR,Integer
+PCS,MEAS_DAM01_DC_VIN,PCS PCS DAM01 DC Voltage In,PCS DC Bus Volage Mean,V,Integer
+PCS,MEAS_DAM01_DC_IIN,PCS PCS DAM01 DC Current In,PCS DC Bus Current Mean,A,Integer
+PCS,MEAS_DAM01_TEMP_HEATSINK,PCS PCS DAM01 Heatsink Temperature,PCS DAM01 Heatsink Temperature,C,Integer
+PCS,MEAS_DAM01_TEMP_AMB,PCS PCS DAM01 Ambient Temperature,PCS DAM01 Ambient Temperature,C,Integer
+PCS,MEAS_DAM01_V_BAT,PCS PCS DAM01 Battery Voltage,PCS DAM01 Battery Voltage,V,Integer
+PCS,MEAS_DAM01_TEMP_IGBT_01,PCS PCS DAM01 IGBT Temperature 1,PCS DAM01 Phase R IGBT Temperature,C,Integer
+PCS,MEAS_DAM01_TEMP_IGBT_02,PCS PCS DAM01 IGBT Temperature 2,PCS DAM01 Phase S IGBT Temperature,C,Integer
+PCS,MEAS_DAM01_TEMP_IGBT_03,PCS PCS DAM01 IGBT Temperature 3,PCS DAM01 Phase T IGBT Temperature,C,Integer
+PCS,FAULT_DAM01_GRID_AC,PCS Power Module AC Grid Fault,Power Module AC Grid Fault,State,Integer
+PCS,FAULT_DAM01_GRID_AC_Phase_R_Over_Voltage,PCS DAM01 GRID AC Phase R Over Voltage Alarm,DAM01 GRID AC Phase R Over Voltage Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Phase_S_Over_Voltage,PCS DAM01 GRID AC Phase S Over Voltage Alarm,DAM01 GRID AC Phase S Over Voltage Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Phase_T_Over_Voltage,PCS DAM01 GRID AC Phase T Over Voltage Alarm,DAM01 GRID AC Phase T Over Voltage Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Phase_R_Under_Voltage,PCS DAM01 GRID AC Phase R Under Voltage Alarm,DAM01 GRID AC Phase R Under Voltage Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Phase_S_Under_Voltage,PCS DAM01 GRID AC Phase S Under Voltage Alarm,DAM01 GRID AC Phase S Under Voltage Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Phase_T_Under_Voltage,PCS DAM01 GRID AC Phase T Under Voltage Alarm,DAM01 GRID AC Phase T Under Voltage Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Over_Frequency,PCS DAM01 GRID AC Over Frequency Alarm,DAM01 GRID AC Over Frequency Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Under_Frequency,PCS DAM01 GRID AC Under Frequency Alarm,DAM01 GRID AC Under Frequency Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Phase_Sequence_Error,PCS DAM01 GRID AC Phase Sequence Error Alarm,DAM01 GRID AC Phase Sequence Error Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Synchronize_Fail_Fault,PCS DAM01 GRID AC Synchronize Fail Fault Alarm,DAM01 GRID AC Synchronize Fail Fault Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Phase_R_Over_Load_Light,PCS DAM01 GRID AC Phase R Over Load Light Alarm,DAM01 GRID AC Phase R Over Load Light Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Phase_S_Over_Load_Light,PCS DAM01 GRID AC Phase S Over Load Light Alarm,DAM01 GRID AC Phase S Over Load Light Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Phase_T_Over_Load_Light,PCS DAM01 GRID AC Phase T Over Load Light Alarm,DAM01 GRID AC Phase T Over Load Light Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Phase_R_Over_Load_Heavy,PCS DAM01 GRID AC Phase R Over Load Heavy Alarm,DAM01 GRID AC Phase R Over Load Heavy Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Phase_S_Over_Load_Heavy,PCS DAM01 GRID AC Phase S Over Load Heavy Alarm,DAM01 GRID AC Phase S Over Load Heavy Alarm,None,String
+PCS,FAULT_DAM01_GRID_AC_Phase_T_Over_Load_Heavy,PCS DAM01 GRID AC Phase T Over Load Heavy Alarm,DAM01 GRID AC Phase T Over Load Heavy Alarm,None,String
+PCS,FAULT_DAM01_CONVERTER,PCS Power Module Converter Fault,Power Module Converter Fault,State,Integer
+PCS,FAULT_DAM01_CONVERTER_AC_Phase_R_Over_Current_Fault,PCS DAM01 CONVERTER AC Phase R Over Current Fault,DAM01 CONVERTER AC Phase R Over Current Fault,None,String
+PCS,FAULT_DAM01_CONVERTER_AC_Phase_S_Over_Current_Fault,PCS DAM01 CONVERTER AC Phase S Over Current Fault,DAM01 CONVERTER AC Phase S Over Current Fault,None,String
+PCS,FAULT_DAM01_CONVERTER_AC_Phase_T_Over_Current_Fault,PCS DAM01 CONVERTER AC Phase T Over Current Fault,DAM01 CONVERTER AC Phase T Over Current Fault,None,String
+PCS,FAULT_DAM01_CONVERTER_DC_Pos_to_Neg_Under_Voltage,PCS DAM01 CONVERTER DC Pos to Neg Under Voltage Alarm,DAM01 CONVERTER DC Pos to Neg Under Voltage Alarm,None,String
+PCS,FAULT_DAM01_CONVERTER_DC_Pos_to_Neg_Over_Voltage,PCS DAM01 CONVERTER DC Pos to Neg Over Voltage Alarm,DAM01 CONVERTER DC Pos to Neg Over Voltage Alarm,None,String
+PCS,FAULT_DAM01_CONVERTER_DC_Pos_to_Nuetral_Under_Voltage,PCS DAM01 CONVERTER DC Pos to Nuetral Under Voltage Alarm,DAM01 CONVERTER DC Pos to Nuetral Under Voltage Alarm,None,String
+PCS,FAULT_DAM01_CONVERTER_DC_Pos_to_Neutral_Over_Voltage,PCS DAM01 CONVERTER DC Pos to Neutral Over Voltage Alarm,DAM01 CONVERTER DC Pos to Neutral Over Voltage Alarm,None,String
+PCS,FAULT_DAM01_CONVERTER_DC_Neg_to_Neutral_Under_Voltage,PCS DAM01 CONVERTER DC Neg to Neutral Under Voltage Alarm,DAM01 CONVERTER DC Neg to Neutral Under Voltage Alarm,None,String
+PCS,FAULT_DAM01_CONVERTER_DC_Neg_to_Neutral_Over_Voltage,PCS DAM01 CONVERTER DC Neg to Neutral Over Voltage Alarm,DAM01 CONVERTER DC Neg to Neutral Over Voltage Alarm,None,String
+PCS,FAULT_DAM01_CONVERTER_DC_Bus_Pre_Load_Fail,PCS DAM01 CONVERTER DC Bus Pre Load Fail Alarm,DAM01 CONVERTER DC Bus Pre Load Fail Alarm,None,String
+PCS,FAULT_DAM01_CONVERTER_DC_Side_Soft_Start_Fail,PCS DAM01 CONVERTER DC Side Soft Start Fail Alarm,DAM01 CONVERTER DC Side Soft Start Fail Alarm,None,String
+PCS,FAULT_DAM01_CONVERTER_DC_Fuse_blown,PCS DAM01 CONVERTER DC Fuse blown Fault,DAM01 CONVERTER DC Fuse blown Fault,None,String
+PCS,FAULT_DAM01_CONVERTER_DC_Discharge_Over_Current_Fault,PCS DAM01 CONVERTER DC Discharge Over Current Fault,DAM01 CONVERTER DC Discharge Over Current Fault,None,String
+PCS,FAULT_DAM01_CONVERTER_DC_Charge_Over_Current_Fault,PCS DAM01 CONVERTER DC Charge Over Current Fault,DAM01 CONVERTER DC Charge Over Current Fault,None,String
+PCS,FAULT_DAM01_CONVERTER_Battery_Bank_Under_Voltage_Fault,PCS DAM01 CONVERTER Battery Bank Under Voltage Fault,DAM01 CONVERTER Battery Bank Under Voltage Fault,None,String
+PCS,FAULT_DAM01_CONVERTER_Battery_Bank_Over_Voltage_Fault,PCS DAM01 CONVERTER Battery Bank Over Voltage Fault,DAM01 CONVERTER Battery Bank Over Voltage Fault,None,String
+PCS,FAULT_DAM01_HARDWARE,PCS Power Module Hardware Fault,Power Module Hardware Fault,State,Integer
+PCS,FAULT_DAM01_HARDWARE_EPO_Fault,PCS DAM01 HARDWARE EPO Fault,DAM01 HARDWARE EPO Fault,None,String
+PCS,FAULT_DAM01_HARDWARE_AC_Fuse_Fail,PCS DAM01 HARDWARE AC Fuse Fail,DAM01 HARDWARE AC Fuse Fail,None,String
+PCS,FAULT_DAM01_HARDWARE_Axillary_Power,PCS DAM01 HARDWARE Axillary Power Fault,DAM01 HARDWARE Axillary Power Fault,None,String
+PCS,FAULT_DAM01_HARDWARE_AC_Pre_Load_Contactor_Fault,PCS DAM01 HARDWARE AC Pre Load Contactor Fault,DAM01 HARDWARE AC Pre Load Contactor Fault,None,String
+PCS,FAULT_DAM01_HARDWARE_AC_Main_Contactor_Fault,PCS DAM01 HARDWARE AC Main Contactor Fault,DAM01 HARDWARE AC Main Contactor Fault,None,String
+PCS,FAULT_DAM01_HARDWARE_IGBT_Short_Fault,PCS DAM01 HARDWARE IGBT Short Fault,DAM01 HARDWARE IGBT Short Fault,None,String
+PCS,FAULT_DAM01_HARDWARE_Sink_Over_Temp,PCS DAM01 HARDWARE Sink Over Temp Fault,DAM01 HARDWARE Sink Over Temp Fault,None,String
+PCS,FAULT_DAM01_HARDWARE_Fan1_Locked,PCS DAM01 HARDWARE Fan1 Locked Fault,DAM01 HARDWARE Fan1 Locked Fault,None,String
+PCS,FAULT_DAM01_HARDWARE_Fan2_Locked,PCS DAM01 HARDWARE Fan2 Locked Fault,DAM01 HARDWARE Fan2 Locked Fault,None,String
+PCS,FAULT_DAM01_HARDWARE_AC_Hardware_OCP,PCS DAM01 HARDWARE AC Hardware OCP Fault,DAM01 HARDWARE AC Hardware OCP Fault,None,String
+PCS,FAULT_DAM01_HARDWARE_DC_Hardware_OVP,PCS DAM01 HARDWARE DC Hardware OVP Fault,DAM01 HARDWARE DC Hardware OVP Fault,None,String
+PCS,FAULT_DAM01_HARDWARE_DC_Hardware_OCP,PCS DAM01 HARDWARE DC Hardware OCP Fault,DAM01 HARDWARE DC Hardware OCP Fault,None,String
+PCS,FAULT_DAM01_HARDWARE_AC_Software_OCP,PCS DAM01 HARDWARE AC Software OCP Fault,DAM01 HARDWARE AC Software OCP Fault,None,String
+PCS,FAULT_DAM01_HARDWARE_Inductance_L1_Over_Temperature,PCS DAM01 HARDWARE Inductance L1 Over Temperature Fault,DAM01 HARDWARE Inductance L1 Over Temperature Fault,None,String
+PCS,FAULT_DAM01_OTHER,PCS Power Module Other Fault,Power Module Other Fault,State,Integer
+PCS,FAULT_DAM01_OTHER_Ambient_Over_Temperature,PCS DAM01 OTHER Ambient Over Temperature Fault,DAM01 OTHER Ambient Over Temperature Fault,None,String
+PCS,FAULT_DAM01_OTHER_Ambient_Under_Temperature,PCS DAM01 OTHER Ambient Under Temperature Fault,DAM01 OTHER Ambient Under Temperature Fault,None,String
+PCS,FAULT_DAM01_OTHER_Heat_Sink_Over_Temperature,PCS DAM01 OTHER Heat Sink Over Temperature Fault,DAM01 OTHER Heat Sink Over Temperature Fault,None,String
+PCS,FAULT_DAM01_OTHER_IGBT_Over_Temperature,PCS DAM01 OTHER IGBT Over Temperature Fault,DAM01 OTHER IGBT Over Temperature Fault,None,String
+PCS,FAULT_DAM01_OTHER_NTC_Fail,PCS DAM01 OTHER NTC Fail Fault,DAM01 OTHER NTC Fail Fault,None,String
+PCS,FAULT_DAM01_OTHER_MCU_485_Loss,PCS DAM01 OTHER MCU 485 Loss Fault,DAM01 OTHER MCU 485 Loss Fault,None,String
+PCS,FAULT_DAM01_OTHER_CAN_Loss,PCS DAM01 OTHER CAN Loss Fault,DAM01 OTHER CAN Loss Fault,None,String
+PCS,FAULT_DAM01_OTHER_ADC_Calibration_Fault,PCS DAM01 OTHER ADC Calibration Fault,DAM01 OTHER ADC Calibration Fault,None,String
+PCS,FAULT_DAM01_OTHER_EEPROM_Fault,PCS DAM01 OTHER EEPROM Fault,DAM01 OTHER EEPROM Fault,None,String
+PCS,FAULT_DAM01_OTHER_RAM_Self_Test_Fault,PCS DAM01 OTHER RAM Self Test Fault,DAM01 OTHER RAM Self Test Fault,None,String
+PCS,FAULT_DAM01_OTHER_Anti_islanding,PCS DAM01 OTHER Anti islanding Fault,DAM01 OTHER Anti islanding Fault,None,String
+PCS,FAULT_DAM01_OTHER_Phase_Open_AC_connection_lost,PCS DAM01 OTHER Phase Open AC connection lost Fault,DAM01 OTHER Phase Open AC connection lost Fault,None,String
+PCS,FAULT_DAM01_OTHER_Grid_Recovering_Fault,PCS DAM01 OTHER Grid Recovering Fault,DAM01 OTHER Grid Recovering Fault,None,String
+PCS,FAULT_DAM01_OTHER_Internal_Choke_Current_Imbalance,PCS DAM01 OTHER Internal Choke Current Imbalance Fault,DAM01 OTHER Internal Choke Current Imbalance Fault,None,String
+PCS,STATE_PCS_SYSTEM_Str,PCS PCS System State Str,PCS System State Str,State,Integer
+PCS,STATE_QS_Str,PCS PCS System QS Str,PCS System QS Str,State,Integer
+PCS,STATE_PCS_GLOBAL_Str,PCS PCS System Global State Str,PCS System Global State Str,State,Integer
+MBMU,system_status_Str,MBMU System Status Str,MBMU System Status Str,State,Integer
+MBMU,poweron_Str,MBMU BMS Power On Status Str,BMS Power On Status Str,State,Integer
+Meter,L1_Vrms,Meter L1 RMS voltage,RMS voltage,V,Integer
+Meter,L2_Vrms,Meter L2 RMS voltage,RMS voltage,V,Integer
+Meter,L3_Vrms,Meter L3RMS voltage,RMS voltage,V,Integer
+Meter,L1_Vmean,Meter L1 mean DC voltage,mean DC voltage,V,Integer
+Meter,L2_Vmean,Meter L2 mean DC voltage,mean DC voltage,V,Integer
+Meter,L3_Vmean,Meter L3 mean DC voltage,mean DC voltage,V,Integer
+Meter,L1_Freq,Meter L1 frequency,line frequency,Hz,Integer
+Meter,L2_Freq,Meter L2 frequency,line frequency,Hz,Integer
+Meter,L3_Freq,Meter L3 frequency,line frequency,Hz,Integer
+Meter,S1_Normal_Value,Meter PV L3 Current Normal Value,normal sensor value,A,Integer
+Meter,S2_Normal_Value,Meter PV L1 Current Normal Value,normal sensor value,A,Integer
+Meter,S3_Normal_Value,Meter PV L2 Current Normal Value,normal sensor value,A,Integer
+Meter,S4_Normal_Value,Meter Total Load L1 Current Normal Value,normal sensor value,A,Integer
+Meter,S5_Normal_Value,Meter Total Load L3 Current Normal Value,normal sensor value,A,Integer
+Meter,S6_Normal_Value,Meter Total Load L2 Current Normal Value,normal sensor value,A,Integer
+Meter,S7_Normal_Value,Meter BESS L1 Current Normal Value,normal sensor value,A,Integer
+Meter,S8_Normal_Value,Meter BESS L3 Current Normal Value,normal sensor value,A,Integer
+Meter,S9_Normal_Value,Meter BESS L2 Current Normal Value,normal sensor value,A,Integer
+Meter,S1_Mean_Value,Meter PV L3 Current Mean Value,mean DC sensor value,A,Integer
+Meter,S2_Mean_Value,Meter PV L1 Current Mean Value,mean DC sensor value,A,Integer
+Meter,S3_Mean_Value,Meter PV L2 Current Mean Value,mean DC sensor value,A,Integer
+Meter,S4_Mean_Value,Meter Total Load L1 Current Mean Value,mean DC sensor value,A,Integer
+Meter,S5_Mean_Value,Meter Total Load L3 Current Mean Value,mean DC sensor value,A,Integer
+Meter,S6_Mean_Value,Meter Total Load L2 Current Mean Value,mean DC sensor value,A,Integer
+Meter,S7_Mean_Value,Meter BESS L1 Current Mean Value,mean DC sensor value,A,Integer
+Meter,S8_Mean_Value,Meter BESS L3 Current Mean Value,mean DC sensor value,A,Integer
+Meter,S9_Mean_Value,Meter BESS L2 Current Mean Value,mean DC sensor value,A,Integer
+Meter,S1_Frequency,Meter PV L3 Frequency,frequency,Hz,Integer
+Meter,S2_Frequency,Meter PV L1 Frequency,frequency,Hz,Integer
+Meter,S3_Frequency,Meter PV L2 Frequency,frequency,Hz,Integer
+Meter,S4_Frequency,Meter Total Load L1 Frequency,frequency,Hz,Integer
+Meter,S5_Frequency,Meter Total Load L3 Frequency,frequency,Hz,Integer
+Meter,S6_Frequency,Meter Total Load L2 Frequency,frequency,Hz,Integer
+Meter,S7_Frequency,Meter BESS L1 Frequency,frequency,Hz,Integer
+Meter,S8_Frequency,Meter BESS L3 Frequency,frequency,Hz,Integer
+Meter,S9_Frequency,Meter BESS L2 Frequency,frequency,Hz,Integer
+Meter,Usage,Meter Net Power,Net Power,kW,Integer
+Meter,Generation,Meter PV Active Power,PV Active Power,kW,Integer
+Meter,Battery,Meter BESS Active Power,BESS Active Power,kW,Integer
+Meter,PV_Active_Power,Meter PV Active Power,PV Active Power,kW,Integer
+Meter,Net_Load_Active_Power,Meter Utility Load Power,Utility Load Power,kW,Integer
+Meter,BESS_Active_Power,Meter BESS Active Power,BESS Active Power,kW,Integer
+Meter,BESS_Active_Power_Pos,Meter BESS Active Positive Power,BESS Active Positive Power,kW,Integer
+Meter,Net_Load_Active_Power_Pos,Meter Utility Load Positive Power,Utility Load Positive Power,kW,Integer
+Meter,PV_Active_Power_Pos,Meter PV Active Postive Power,PV Active Postive Power,kW,Integer
+Meter,Total_Load,Meter Total Load,Total Load,kW,Integer
+Meter,Total_Load_Power_Factor,Meter Total Load Power Factor,Total Load Power Factor,None,Integer
+Meter,PV_Phase1_Current,Meter PV Phase1 Current,PV Phase1 Current,A,Integer
+Meter,PV_Phase2_Current,Meter PV Phase2 Current,PV Phase2 Current,A,Integer
+Meter,PV_Phase3_Current,Meter PV Phase3 Current,PV Phase3 Current,A,Integer
+Meter,PV_Phase1_Power,Meter PV Phase1 Power,PV Phase1 Power,kW,Integer
+Meter,PV_Phase2_Power,Meter PV Phase2 Power,PV Phase2 Power,kW,Integer
+Meter,PV_Phase3_Power,Meter PV Phase3 Power,PV Phase3 Power,kW,Integer
+Meter,Total_Load_Phase1_Current,Meter Total Load Phase1 Current,Total Load Phase1 Current,A,Integer
+Meter,Total_Load_Phase2_Current,Meter Total Load Phase2 Current,Total Load Phase2 Current,A,Integer
+Meter,Total_Load_Phase3_Current,Meter Total Load Phase3 Current,Total Load Phase3 Current,A,Integer
+Meter,Total_Load_Phase1_Power,Meter Total Load Phase1 Power,Total Load Phase1 Power,kW,Integer
+Meter,Total_Load_Phase2_Power,Meter Total Load Phase2 Power,Total Load Phase2 Power,kW,Integer
+Meter,Total_Load_Phase3_Power,Meter Total Load Phase3 Power,Total Load Phase3 Power,kW,Integer
+Meter,BESS_Phase1_Current,Meter BESS Phase1 Current,BESS Phase1 Current,A,Integer
+Meter,BESS_Phase2_Current,Meter BESS Phase2 Current,BESS Phase2 Current,A,Integer
+Meter,BESS_Phase3_Current,Meter BESS Phase3 Current,BESS Phase3 Current,A,Integer
+Meter,BESS_Phase1_Power,Meter BESS Phase1 Power,BESS Phase1 Power,kW,Integer
+Meter,BESS_Phase2_Power,Meter BESS Phase2 Power,BESS Phase2 Power,kW,Integer
+Meter,BESS_Phase3_Power,Meter BESS Phase3 Power,BESS Phase3 Power,kW,Integer
+Meter,Total_Load_Apparent_Power,Meter Total Load Apparent Power,Total Load Apparent Power,kVA,Integer
+Meter,Total_Load_VAR,Meter Total Load VAR,Total Load VAR,kVAR,Integer
+Meter,Total_Load_THD,Meter Total Load THD,Total Load THD,%,Integer
+Meter,Total_Load_Phase1_THD,Meter Total Load Phase1 THD,Total Load Phase1 THD,%,Integer
+Meter,Total_Load_Phase2_THD,Meter Total Load Phase2 THD,Total Load Phase2 THD,%,Integer
+Meter,Total_Load_Phase3_THD,Meter Total Load Phase3 THD,Total Load Phase3 THD,%,Integer
