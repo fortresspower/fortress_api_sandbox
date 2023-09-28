@@ -117,6 +117,10 @@ The VEN is running in the container `api-sandbox-ven-1`.  It will attempt to con
 An example of the kind of data points or "tags" that will be available is given in `example_payloads/example_tags.csv`.  "MBMU" refers to the master battery management unit, which has a similar function to a more traditional "BMS".  The "PCS" is the "power conditioning system".  Please take note that this list of tags is given as an example only.  The naming convention is still being developed.  In addition, the exact tag list will vary because the exact set of equipment at any given installation will also vary.  
 
 
+## How often can I get telemetry?
+
+There are 2 different parameters that will control how much data you get in telemetry reports: the reporting frequency and the granularity.  The reporting frequency is how often a new report will be sent.  The granularity is how often a given data point will be sampled.  For example, a report with a frequency of 10 minutes and a granularity of 1 minute will be sent once every 10 minutes (the frequency).  Each time the report is sent it will have 10 data points on it, one sampled each minute (the granularity).  If your application requires a reporting frequency faster than 30 seconds and a granularity faster than 5 seconds, please talk to your solutions engineer and we can discuss it.  
+
 # Version Notes
 
 ## V0.0.2
